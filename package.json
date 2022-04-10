@@ -1,0 +1,10 @@
+{
+  "name": "file-manager",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rokibul Islam <rokibul630@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "cd ui && yarn build"
+  }
+}

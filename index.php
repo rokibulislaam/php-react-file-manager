@@ -1,9 +1,7 @@
 <?php
 session_start();
 if (isset($_SESSION['username'])) {
- /**
-  * handle redirecting to file-manager dashboard here
-  */
+  require('./ui/build/index.php');
 } else {
   header('Location: signin.php');
 }
